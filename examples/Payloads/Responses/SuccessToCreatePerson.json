@@ -1,0 +1,8 @@
+{
+  "status": "success",
+  "body": {
+    "id": 1234,
+    "name": "John",
+    "familyId": 123
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "event": "deleted",
+  "entity": "person",
+  "parentId": 123,
+  "id": 1234
+}

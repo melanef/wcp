@@ -1,0 +1,9 @@
+{
+  "action": "create",
+  "entity": "person",
+  "parentId": 123,
+  "payload": {
+    "name": "John",
+    "familyId": 123
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "event": "created",
+  "entity": "person",
+  "parentId": 123,
+  "id": 1234,
+  "payload": {
+    "id": 1234,
+    "name": "John",
+    "familyId": 123
+  }
+}
