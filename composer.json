@@ -1,0 +1,28 @@
+{
+    "name": "melanef/wcp",
+    "description": "CRUDL implementation for WebSockets on top of Ratchet",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Amauri de Melo Junior",
+            "email": "amaurimelojunior@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Melanef\\Examples": "examples",
+            "Melanef\\Wcp": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.4.2",
+        "cboden/ratchet": "^0.4.3"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "^1.4",
+        "mockery/mockery": "^1.0",
+        "phpunit/php-code-coverage": "^6.1",
+        "phpunit/phpunit": "^7.0"
+    }
+}
