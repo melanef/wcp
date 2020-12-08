@@ -60,6 +60,7 @@ export default class WcpClient {
     this.handler = new WebSocket(this.url, PROTOCOL);
     this.handlerState = handlerStates.connecting;
     this.handler.onmessage = (message: MessageEvent) => this.handleMessage(message);
+    this.handler.onopen = () => this.handlerState = handlerStates.ready;
 
     if (this.handler.readyState === WebSocket.OPEN) {
       this.handlerState = handlerStates.ready;
